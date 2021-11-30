@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jira-ticket</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+</head>
+<body>
+   <div class="container">
+       <div class="navbar">
+           <div class="filters">
+               <div class="filter">
+                   <div class="pink"></div>
+               </div>
+               <div class="filter">
+                   <div class="blue"></div>
+               </div>
+               <div class="filter">
+                   <div class="green"></div>
+               </div>
+               <div class="filter">
+                   <div class="black"></div>
+               </div>
+           </div>
+           <div class="action">
+               <div class="add">
+                <span class="material-icons">
+                    add
+                    </span>
+               </div>
+               <div class="delete">
+                <span class="material-icons deleteicon">
+                    delete
+                    </span>
+               </div>
+           </div>
+
+       </div> 
+       <div class="grid">
+           <div class="grid-container">
+         <!-- <div class="modal">
+             <div class="task">
+                 <div class="task-inner" contenteditable="true"></div>
+             </div>
+             <div class="prioty">
+                 <div class="prioty-inner">
+                     <div class="box pink"></div>
+                     <div class="box blue"></div>
+                     <div class="box green"></div>
+                     <div class="box black"></div>
+                 </div>
+             </div>
+         </div> -->
+
+         <!-- <div class="ticket">
+             <div class="ticket-color pink"></div>
+             <div class="ticket-id">#Aeo24</div>
+             <div class="ticket-task">
+                 varun love amisha
+             </div>
+         </div> -->
+        </div>
+       </div>
+       <div class="creator">
+          
+            Create &nbsp;&nbsp;&nbsp;By &nbsp;&nbsp;&nbsp; ❤️ &nbsp;&nbsp;&nbsp; Varun Singh
+           
+       </div>
+   </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/short-unique-id@latest/dist/short-unique-id.min.js"></script>
+    <script>
+        let uid = new ShortUniqueId();
+    </script>
+    <script src="script.js"></script>
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
+    <script type="text/javascript">
+        VanillaTilt.init(document.querySelectorAll(".ticket"), {
+            max: 10,
+            speed: 100,
+            glare: false,  
+            "max-glare": 0.1,
+        });
+        
+        //It also supports NodeList
+       
+    </script>
+</body>
+</html>
