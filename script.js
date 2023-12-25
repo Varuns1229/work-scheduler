@@ -3,7 +3,7 @@ let body = document.querySelector("body");
 let grid = document.querySelector(".grid");
 let gridcontainer = document.querySelector(".grid-container");
 let deleteicon = document.querySelector(".deleteicon");
-let colors = ["#ff264c", "blue", "green", "black"];
+let colors = ["pink", "blue", "green", "black"];
 const days = [
   "Sunday",
   "Monday",
