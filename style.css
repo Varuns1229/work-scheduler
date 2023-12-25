@@ -15,12 +15,13 @@
     width: 100vw;
     background-color: #384657;
     display: flex;
+    justify-content: start;
     align-items: center;
 }
 .filters,.action{
     /* margin-top: calc( ( 25 / 100 ) * 15vh ); */
     height: 70%;
-    margin-left: 4rem;
+    margin: 0 2rem;
     background-color: #4c5969;
 }
 .filters{
